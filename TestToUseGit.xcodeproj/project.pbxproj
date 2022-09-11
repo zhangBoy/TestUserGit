@@ -16,6 +16,7 @@
 		114201F528CD6EE500DE6E5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 114201F428CD6EE500DE6E5C /* main.m */; };
 		114201FF28CD6EE600DE6E5C /* TestToUseGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 114201FE28CD6EE600DE6E5C /* TestToUseGitTests.m */; };
 		1142020A28CD6EE700DE6E5C /* TestToUseGitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1142020928CD6EE600DE6E5C /* TestToUseGitUITests.m */; };
+		11D2735428CD81E400DC9917 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 11D2735328CD81E400DC9917 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1142020528CD6EE600DE6E5C /* TestToUseGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestToUseGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1142020928CD6EE600DE6E5C /* TestToUseGitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestToUseGitUITests.m; sourceTree = "<group>"; };
 		1142020B28CD6EE700DE6E5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11D2735228CD81E400DC9917 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		11D2735328CD81E400DC9917 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				114201E628CD6EB500DE6E5C /* SceneDelegate.m */,
 				114201E828CD6EB500DE6E5C /* ViewController.h */,
 				114201E928CD6EB500DE6E5C /* ViewController.m */,
+				11D2735228CD81E400DC9917 /* Person.h */,
+				11D2735328CD81E400DC9917 /* Person.m */,
 				114201EB28CD6EB600DE6E5C /* Main.storyboard */,
 				114201EE28CD6EE500DE6E5C /* Assets.xcassets */,
 				114201F028CD6EE500DE6E5C /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			files = (
 				114201EA28CD6EB500DE6E5C /* ViewController.m in Sources */,
 				114201E428CD6EB500DE6E5C /* AppDelegate.m in Sources */,
+				11D2735428CD81E400DC9917 /* Person.m in Sources */,
 				114201F528CD6EE500DE6E5C /* main.m in Sources */,
 				114201E728CD6EB500DE6E5C /* SceneDelegate.m in Sources */,
 			);
